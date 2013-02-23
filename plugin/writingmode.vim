@@ -24,7 +24,7 @@ let s:status = &laststatus
 function s:Toggle()
     if has('gui')
         if (g:writing_on == 0)
-            set guifont=DejaVu\ Condensed\ 12
+            set guifont=Liberation\ Mono\ 12
 			set formatoptions+=wqnl
 			set noexpandtab
             set nonumber
