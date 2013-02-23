@@ -1,0 +1,24 @@
+*writingmode.txt*   A vim plugin for writing prose
+
+=============================================================================
+Author: Gianluca Fiore <forod.g@gmail.com> *writingmode-author*
+License: BSD license
+
+=============================================================================
+
+INTRODUCTION                            *writingmode*
+
+writingmode.vim is a plugin that helps you to write prose. In graphical mode 
+(MacVim, GVim etc.) it sets a bigger font, more linespacing, remove line 
+numbers, toggle the statusbar, don't change tabs in whitespaces and use the 
+currently active spell checking for completion.
+In terminal mode does all the above but for the bigger font and the 
+linespacing (not supported under terminals)
+
+=============================================================================
+
+COMMANDS                                *writingmode-commands*
+
+:WritingModeToggle
+
+	vim:tw=78:et:ft=help:norl:
