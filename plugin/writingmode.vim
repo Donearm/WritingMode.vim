@@ -1,5 +1,5 @@
 " Vim plugin for writing prose
-" Last Change: 2013-02-23
+" Last Change: 2017-10-20
 " Maintainer: Gianluca Fiore <forod.g@gmail.com>
 " License: BSD license
 
@@ -32,6 +32,7 @@ function s:Toggle()
             set linespace=5
             set nocursorline
             set laststatus=0
+			set nolist
 			set complete+=kspell
             let g:writing_on = 1
         else
@@ -60,6 +61,7 @@ function s:Toggle()
             set norelativenumber
             set nocursorline
             set laststatus=0
+			set nolist
 			set complete+=kspell
             let g:writing_on = 1
 		else
